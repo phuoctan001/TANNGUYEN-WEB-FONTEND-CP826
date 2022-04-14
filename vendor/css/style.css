@@ -6,11 +6,17 @@
     padding: 20px 0px;;
 }
 .menu-main{
-    background-color: red;
-    height: 20px;
-    width: 100%;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    background-color: #eb3e32;
+}
+nav.nav-custom-css{
+    background-color: #eb3e32 !important;
+    border-left: 1px solid white;
+}
+nav.nav-custom-css a:hover{
+    color: #ffb416 !important;
+}
+nav.nav-custom-css a:focus{
+    color: #ffb416 !important;
 }
 .sideshow{
     height: 400px;
@@ -46,6 +52,30 @@ button.button-form-search i{
     font-weight: bold;
 }
 .icon-header-main-custom-1{
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
+.icon-list-vertical-menu-custom i{
+    font-size: 1em;
+    color:white;
+}
+.icon-list-vertical-menu-custom b{
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .tn-custom-menu-dropdown{
+      background-color: #eb3e32 !important;
+      border: 0px;
+  }
+  .tn-custom-css-dropdown-menu{
+      margin-top: 12px;
+  }
